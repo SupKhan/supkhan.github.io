@@ -1,0 +1,115 @@
+body {
+    margin: 0;
+    padding; 0;
+    background-color: white;
+    cursor: grabbing;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50)
+}
+
+.button {
+    position: relative;
+    text-align: center;
+    width: 200px;
+    padding: 10px;
+    font-size: 35px;
+    color: yellow;
+    font-family: cursive;
+    font-weight: 400;
+    border: 5px solid #DCFF00;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    cursor: pointer;
+    border-radius: 100px;
+    transition: 1.5s;
+}
+
+.button:hover
+{
+    box-shadow: 0 5px 50px 0 #DCFF00 inset, 0 5px 50px 0 #DCFF00,
+                0 5px 50px 0 #DCFF00 inset, 0 5px 50px 0 #DCFF00;
+}
+
+.h1 {
+    width: 80%;
+    margin: 0 auto;
+   text-align: center; 
+   font-size: 35px;
+    color: black;
+    font-family: bold;
+    font-weight: 400;
+    border-radius: 50px solid #FB0000;
+    text-transform: uppercase;
+    letter-spacing: 30px;
+    transition: 5s;
+    box-shadow: 0 5px 50px 0 #FF8E8E inset, 0 5px 50px 0 #FF8E8E,
+                0 5px 50px 0  inset, 0 5px 50px 0 ;
+}
+
+.h12 {
+    width: 50%;
+    margin: 0 auto;
+    color: black;
+    font-family: cursive;
+    font-weight: 400;
+    font-size: 50px;
+    transition: 2s;
+    text-align:center;
+    box-shadow: 0 5px 50px 0 #FF8E8E inset, 0 5px 50px 0 #FF8E8E,
+                0 5px 50px 0 #DCFF00 inset, 0 5px 50px 0 #DCFF00;
+ 
+}
+
+.emj {
+    color: rebeccapurple;
+    font-family: cursive;
+    font-weight: 400;
+    border-radius: 50px solid #DE0000;
+    font-size: 75px;
+    transition: 6.5s;
+    
+}
+
+.but2 {
+    text-align: center;
+    width: 250px;
+    padding: 4px;
+    font-size: 10px;
+    color: white;
+    font-family: cursive;
+    font-weight: 400;
+    border: 5px solid black;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    cursor: pointer;
+    border-radius: 100px;
+    transition: 1.5s;
+}
+
+.but2:hover
+{
+    box-shadow: 0 5px 50px 0 gray inset, 0 5px 50px 0 red,
+                0 5px 50px 0 #00F9FF inset, 0 5px 50px 0 #00F9FF;
+}
+
+.bottom {
+    padding: 100px;
+}
+
+
+
+
+
+
+
+
